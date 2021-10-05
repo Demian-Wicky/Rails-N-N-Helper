@@ -17,5 +17,8 @@ then:
 ```ruby
 ruby app.rb
 ```
+
+<br>
+After filling in the table names, here is the result of an example:
 <br><br>
 <img src="preview/example.png" >
