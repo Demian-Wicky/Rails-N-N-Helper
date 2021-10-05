@@ -72,6 +72,7 @@ system ('clear')
 puts line
 puts
 puts "Dans ton fichier de " + "MIGRATION ".red + "XXXXXXXX_create_#{answer}.rb".cyan + " (dans db/migrate)" + ", ajoute ceci:"
+puts "Vérifie bien que cette migration est " +"down".red + "."
 puts
 puts "t." + "belongs_to".green + " :#{table1.downcase}, index: true".blue
 puts "t." + "belongs_to".green + " :#{table2.downcase}, index: true".blue
@@ -79,7 +80,6 @@ puts
 puts line
 puts
 puts "Dans ton fichier " + "MODEL ".red + "#{answer2}.rb".cyan + " (dans app/models)" + ", ajoute ceci:"
-puts "Vérifie bien que cette migration est " +"down".red + "."
 puts
 puts "belongs_to" + " :#{table1.downcase}".blue
 puts "belongs_to" + " :#{table2.downcase}".blue
