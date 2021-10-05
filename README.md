@@ -17,3 +17,5 @@ then:
 ```ruby
 ruby app.rb
 ```
+<br><br>
+<img src="preview/example.png" >
